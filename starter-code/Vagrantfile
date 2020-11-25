@@ -10,9 +10,10 @@ Vagrant.configure("2") do |config|
   # config.hostsupdater.aliases = ["development.local"]
 
   # Synce the app folder (not copying in. it's synching)
+
   # config.vm.synced_folder "path/origin/folder", "path/to/destination/folder"
   config.vm.synced_folder "app", "/app"
 
-  # rub the provision script
+  # run the provision script making sure you're in the correct path
   config.vm.provision "shell", path: "environment/provision.sh"
 end
