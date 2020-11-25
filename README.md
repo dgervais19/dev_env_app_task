@@ -23,9 +23,10 @@ end
 2. Language agnostic
 
 Provisioning....
-    * Makes files availabke
-    * Enables you to run commands/scripts
-    * Injects environment variables (global variables)
+
+ * Makes files availabke
+ * Enables you to run commands/scripts
+ * Injects environment variables (global variables)
 
 ### Managing Running Servers in Linux
 * sudo systemctl <action> <server>
